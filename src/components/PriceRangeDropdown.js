@@ -11,7 +11,7 @@ const PriceRangeDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   const prices = [
     {
-      value: 'Price range(any)'
+      value: 'Price range (any)'
     },
     {
       value: '100000 - 130000'
