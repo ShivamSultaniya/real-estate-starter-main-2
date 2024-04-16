@@ -183,8 +183,8 @@ export const housesData = [
   },
   {
     id: 7,
-    type: 'Apartament',
-    name: 'Apartament 1',
+    type: 'Apartment',
+    name: 'Apartment 1',
     description:
       'In a serene garden setting, this elegant home exudes timeless charm and tranquility. From the inviting entrance to the sunlit living spaces, every detail speaks of sophistication. The gourmet kitchen and cozy master suite offer comfort and luxury, while outdoor areas beckon for relaxation and al fresco dining. Welcome to a dreamy retreat where every moment is a testament to refined living.',
     image: Apartment1,
@@ -204,8 +204,8 @@ export const housesData = [
   },
   {
     id: 8,
-    type: 'Apartament',
-    name: 'Apartament 2',
+    type: 'Apartment',
+    name: 'Apartment 2',
     description:
       'In a serene garden setting, this elegant home exudes timeless charm and tranquility. From the inviting entrance to the sunlit living spaces, every detail speaks of sophistication. The gourmet kitchen and cozy master suite offer comfort and luxury, while outdoor areas beckon for relaxation and al fresco dining. Welcome to a dreamy retreat where every moment is a testament to refined living.',
     image: Apartment2,
@@ -225,8 +225,8 @@ export const housesData = [
   },
   {
     id: 9,
-    type: 'Apartament',
-    name: 'Apartament 3',
+    type: 'Apartment',
+    name: 'Apartment 3',
     description:
       'In a serene garden setting, this elegant home exudes timeless charm and tranquility. From the inviting entrance to the sunlit living spaces, every detail speaks of sophistication. The gourmet kitchen and cozy master suite offer comfort and luxury, while outdoor areas beckon for relaxation and al fresco dining. Welcome to a dreamy retreat where every moment is a testament to refined living.',
     image: Apartment3,
@@ -372,8 +372,8 @@ export const housesData = [
   },
   {
     id: 16,
-    type: 'Apartament',
-    name: 'Apartament 16',
+    type: 'Apartment',
+    name: 'Apartment 16',
     description:
       'In a serene garden setting, this elegant home exudes timeless charm and tranquility. From the inviting entrance to the sunlit living spaces, every detail speaks of sophistication. The gourmet kitchen and cozy master suite offer comfort and luxury, while outdoor areas beckon for relaxation and al fresco dining. Welcome to a dreamy retreat where every moment is a testament to refined living.',
     image: Apartment4,
@@ -393,8 +393,8 @@ export const housesData = [
   },
   {
     id: 17,
-    type: 'Apartament',
-    name: 'Apartament 17',
+    type: 'Apartment',
+    name: 'Apartment 17',
     description:
       'In a serene garden setting, this elegant home exudes timeless charm and tranquility. From the inviting entrance to the sunlit living spaces, every detail speaks of sophistication. The gourmet kitchen and cozy master suite offer comfort and luxury, while outdoor areas beckon for relaxation and al fresco dining. Welcome to a dreamy retreat where every moment is a testament to refined living.',
     image: Apartment5,
@@ -414,8 +414,8 @@ export const housesData = [
   },
   {
     id: 18,
-    type: 'Apartament',
-    name: 'Apartament 18',
+    type: 'Apartment',
+    name: 'Apartment 18',
     description:
       'In a serene garden setting, this elegant home exudes timeless charm and tranquility. From the inviting entrance to the sunlit living spaces, every detail speaks of sophistication. The gourmet kitchen and cozy master suite offer comfort and luxury, while outdoor areas beckon for relaxation and al fresco dining. Welcome to a dreamy retreat where every moment is a testament to refined living.',
     image: Apartment6,
