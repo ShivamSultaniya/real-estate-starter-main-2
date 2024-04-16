@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import data
 import { housesData } from '../data';
 // import use params
-import { useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 // import icons
 import { BiBed, BiBath, BiArea } from 'react-icons/bi';
 
 import { Link } from 'react-router-dom'
 
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 const PropertyDetails = () => {
+  ScrollToTop();
   const { id } = useParams();
   // get the house based on the id
 
@@ -17,8 +28,9 @@ const PropertyDetails = () => {
     return house.id === parseInt(id);
   });
 
-  return (<section>
-    <div className="container mx-auto min-h-[800px] mb-14">
+  return (
+  <section>
+    <div className="container mx-auto min-h-[800px] pb-4">
       <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between'>
         <div>
           <h2 className='text-2xl font-semibold'>{house.name}</h2>
